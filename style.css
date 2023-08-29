@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-section{
+    background-color: rgb(236, 220, 222);
+    margin : 0px;
+    padding: 0px;
+    width: 100%;
+    height:450px;
+    display: flex;
+    gap: 100px;
+}
+.banner-content{
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 50%;
+    color: tomato;
+}
+.banner-title{
+    font-size: 50px;
+}
+.banner-des{
+    font-size: 13px;
+   margin-bottom: 25px;
+}
+.banner-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border-color:tomato;
+    border: 0;
+    text-decoration: none;
+}
+
+.banner-image-section{
+    width: 50%;
+}
+.banner-img{
+    width: 60%;
+    height: 100%;
+}
+.mid-section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.featured{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 500px;
+}
+.feature-header{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.feature-des{
+    text-align: center;
+    font-size: 14px;
+    color: #858484;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.featured-flower{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.flower-div{
+    width: 33%;
+    height: 450px;    
+}
+.flower-div a{
+    color: black;
+    font-weight: bold;
+}
+.flower-img{
+    
+    width: 95%;
+    height: 400px;
+    text-align: center;
+}
+.deal-section{
+   margin-top: 150px;
+   margin-bottom: 50px;
+   background-color: rgb(247, 237, 237);
+}
+.deal-container{
+    display: flex;
+    gap : 50px;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.deal-content{
+    width: 60%;
+    padding-left: 100px;
+    text-align: center;
+}
+.dead-header{
+    color: #272727;
+}
+.deal-off{
+    color: tomato;
+}
+.deal-details{
+    font-size: 16px;
+    color: #858484;
+    margin-bottom: 25px;
+}
+.deal_btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(221, 78, 157);
+    color: white;
+    font-weight: bold;
+    border-color: rgb(221, 78, 157);
+    border: 0;
+    text-decoration: none;
+
+}
+
+.deal-img{
+    width: 40%;
+}
+.deal-photo{
+    height: 60%;
+    width: 50%;
+}
+
+.social-review{
+    margin-top: 75px;
+    text-align: center;
+    height: 500px;
+}
+.social-des{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #858484;
+}
+.social-photos{
+    display: flex;
+    gap: 20px;
+    padding-left: 15px;
+}
+.social-photos img{
+    width: 23%;
+
+}
+.subscribtion-section{
+    background-image: url('Asset/Rectangle_9.png');
+    height: 330px;
+    width: cover;
+    margin-bottom: 100px;
+}
+.subscription-container{
+    padding-top: 50px;
+    text-align: center;
+}
+.subscribe-header{
+    font-size: 30px;
+}
+.subscribe-deal{
+    margin-bottom: 30px;
+    color: #858484;
+    font-weight: 600;
+}
+.subscribtion_email{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.subscribtion_btn{
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: rgb(245, 50, 83);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.footer-section{
+    margin: 0;
+    padding: 0;
+    background-color: #020202;
+    height: 330px;
+    width: 100%;
+}
+.footer-container{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+.footer-des{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 12px;
+    color:#858484 ;
+}
+.footer-copy-right{
+    color: #272727;
+    font-size: 14px;
+}
+.footer-shop{
+    color: rgb(238, 59, 88);
+}
+
+.service-container{
+    display: flex;
+    gap: 100px;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.service-header{
+    text-align: center;
+    font-size: 40px;
+}
+.service-list-container ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.fa-check{
+    color: rgb(243, 17, 55);
+}
